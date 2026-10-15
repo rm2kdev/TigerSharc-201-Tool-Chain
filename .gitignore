@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Build output (per-component .gitignore files also cover build/)
+build/
+build-smoke/
+
+# Local agent / editor state
+.claude/settings.local.json
+.claude/worktrees/
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini

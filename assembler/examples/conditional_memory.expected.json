@@ -1,0 +1,6 @@
+{
+  "max_packets": 20,
+  "idle_symbol": "done",
+  "registers": {"XR0":99,"YR0":42,"LC0":1},
+  "memory": {"input":[42]}
+}

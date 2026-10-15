@@ -1,0 +1,4468 @@
+[
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18579,
+    "source": "X R8 = R0 + R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18579,
+    "source": "X R8 = R0 - R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18580,
+    "source": "X R9:8 = R1:0 + R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18580,
+    "source": "X R9:8 = R1:0 - R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18581,
+    "source": "X R8 = R0 + CI",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18582,
+    "source": "X LR9:8 = R1:0 + CI",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18583,
+    "source": "X R8 = R0 + R4 + CI",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18584,
+    "source": "X R8 = R0 - R4 + CI -1",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18585,
+    "source": "X LR9:8 = R1:0 + R5:4 + CI",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18586,
+    "source": "X LR9:8 = R1:0 - R5:4 + CI -1",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18587,
+    "source": "X R8 = (R0 + R4)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18587,
+    "source": "X R8 = (R0 - R4)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18588,
+    "source": "X R9:8 = (R1:0 + R5:4)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18588,
+    "source": "X R9:8 = (R1:0 - R5:4)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18589,
+    "source": "X R8 = ABS R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18590,
+    "source": "X R9:8 = ABS R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18591,
+    "source": "X R8 = ABS (R0 + R4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18592,
+    "source": "X R9:8 = ABS (R1:0 + R5:4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18593,
+    "source": "X R8 = ABS (R0 - R4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18594,
+    "source": "X R9:8 = ABS (R1:0 - R5:4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18595,
+    "source": "X R8 = - R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18596,
+    "source": "X R9:8 = - R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18597,
+    "source": "X R8 = MAX (R0, R4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-2",
+    "listing": 1,
+    "entry": 18597,
+    "source": "X R8 = MIN (R0, R4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18608,
+    "source": "X R9:8 = MAX (R1:0, R5:4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18608,
+    "source": "X R9:8 = MIN (R1:0, R5:4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18609,
+    "source": "X SR9:8 = VMAX (R1:0, R5:4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18609,
+    "source": "X SR9:8 = VMIN (R1:0, R5:4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18609,
+    "source": "X BR9:8 = VMAX (R1:0, R5:4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18609,
+    "source": "X BR9:8 = VMIN (R1:0, R5:4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18610,
+    "source": "X R8 = INC R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18610,
+    "source": "X R8 = DEC R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18611,
+    "source": "X R9:8 = INC R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18611,
+    "source": "X R9:8 = DEC R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18612,
+    "source": "X COMP(R0, R4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18613,
+    "source": "X COMP(R5:4, R5:4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18614,
+    "source": "X R8 = CLIP R0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18615,
+    "source": "X R9:8 = CLIP R1:0 BY R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18616,
+    "source": "X R8 = SUM SR0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18616,
+    "source": "X R8 = SUM BR0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18617,
+    "source": "X R8 = SUM SR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18617,
+    "source": "X R8 = SUM BR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18618,
+    "source": "X R8 = ONES R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18618,
+    "source": "X R8 = ONES R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18619,
+    "source": "X PR1:0 = R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18620,
+    "source": "X R9:8 = PR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18621,
+    "source": "X R8 = BFOINC R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18622,
+    "source": "X PR0 += ABS (SR1:0 - SR5:4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18622,
+    "source": "X PR1 += ABS (SR1:0 - SR5:4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18623,
+    "source": "X PR0 += ABS (BR1:0 - BR5:4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18623,
+    "source": "X PR1 += ABS (BR1:0 - BR5:4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18624,
+    "source": "X PR0 += SUM SR0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18624,
+    "source": "X PR1 += SUM SR0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18625,
+    "source": "X PR0 += SUM SR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18625,
+    "source": "X PR1 += SUM SR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18626,
+    "source": "X PR0 += SUM BR0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18626,
+    "source": "X PR1 += SUM BR0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18627,
+    "source": "X PR0 += SUM BR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18627,
+    "source": "X PR1 += SUM BR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18628,
+    "source": "X R8 = R0 + R4, R12 = R0 - R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 1,
+    "entry": 18629,
+    "source": "X R9:8 = R1:0 + R5:4, R13:12 = R1:0 - R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 2,
+    "entry": 18631,
+    "source": "X R8 = PASS R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 2,
+    "entry": 18632,
+    "source": "X LR9:8 = PASS R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 2,
+    "entry": 18633,
+    "source": "X R8 = R0 AND R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 2,
+    "entry": 18633,
+    "source": "X R8 = R0 AND NOT R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 2,
+    "entry": 18633,
+    "source": "X R8 = R0 OR R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 2,
+    "entry": 18633,
+    "source": "X R8 = R0 XOR R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 2,
+    "entry": 18634,
+    "source": "X LR9:8 = R1:0 AND R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 2,
+    "entry": 18634,
+    "source": "X LR9:8 = R1:0 AND NOT R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 2,
+    "entry": 18634,
+    "source": "X LR9:8 = R1:0 OR R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 2,
+    "entry": 18634,
+    "source": "X LR9:8 = R1:0 XOR R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 2,
+    "entry": 18635,
+    "source": "X R8 = NOT R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-3",
+    "listing": 2,
+    "entry": 18636,
+    "source": "X LR9:8 = NOT R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 3,
+    "entry": 18640,
+    "source": "X R9:8 = EXPAND SR0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 3,
+    "entry": 18641,
+    "source": "X R11:8 = EXPAND SR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 3,
+    "entry": 18642,
+    "source": "X SR9:8 = EXPAND BR0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 3,
+    "entry": 18643,
+    "source": "X SR11:8 = EXPAND BR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 3,
+    "entry": 18644,
+    "source": "X SR8 = COMPACT R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 3,
+    "entry": 18645,
+    "source": "X BR8 = COMPACT SR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 3,
+    "entry": 18646,
+    "source": "X R8 = COMPACT LR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 3,
+    "entry": 18647,
+    "source": "X LR9:8 = COMPACT QR3:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 3,
+    "entry": 18648,
+    "source": "X BR9:8 = MERGE R0, R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 3,
+    "entry": 18649,
+    "source": "X BR11:8 = MERGE R1:0, R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 3,
+    "entry": 18650,
+    "source": "X SR9:8 = MERGE R0, R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 3,
+    "entry": 18651,
+    "source": "X SR11:8 = MERGE R1:0, R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 3,
+    "entry": 18652,
+    "source": "X R9:8 = PERMUTE (R1:0, R4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 3,
+    "entry": 18653,
+    "source": "X R11:8 = PERMUTE (R1:0, -R1:0, R4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 4,
+    "entry": 18655,
+    "source": "X FR8 = R0 + R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 4,
+    "entry": 18655,
+    "source": "X FR8 = R0 - R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 4,
+    "entry": 18656,
+    "source": "X FR9:8 = R1:0 + R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 4,
+    "entry": 18656,
+    "source": "X FR9:8 = R1:0 - R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 4,
+    "entry": 18657,
+    "source": "X FR8 = (R0 + R4)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 4,
+    "entry": 18657,
+    "source": "X FR8 = (R0 - R4)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 4,
+    "entry": 18658,
+    "source": "X FR9:8 = (R1:0 + R5:4)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 4,
+    "entry": 18658,
+    "source": "X FR9:8 = (R1:0 - R5:4)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 4,
+    "entry": 18659,
+    "source": "X FR8 = MAX (R0, R4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 4,
+    "entry": 18659,
+    "source": "X FR8 = MIN (R0, R4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 4,
+    "entry": 18660,
+    "source": "X FR9:8 = MAX (R1:0, R5:4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 4,
+    "entry": 18660,
+    "source": "X FR9:8 = MIN (R1:0, R5:4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 4,
+    "entry": 18661,
+    "source": "X FR8 = ABS R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 4,
+    "entry": 18662,
+    "source": "X FR9:8 = ABS R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 4,
+    "entry": 18663,
+    "source": "X FR8 = ABS (R0 + R4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-4",
+    "listing": 4,
+    "entry": 18663,
+    "source": "X FR8 = ABS (R0 - R4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18670,
+    "source": "X FR9:8 = ABS (R1:0 + R5:4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18670,
+    "source": "X FR9:8 = ABS (R1:0 - R5:4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18671,
+    "source": "X FR8 = - R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18672,
+    "source": "X FR9:8 = - R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18673,
+    "source": "X FCOMP (R0, R4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18674,
+    "source": "X FCOMP (R1:0, R5:4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18675,
+    "source": "X R8 = FIX FR0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18675,
+    "source": "X R8 = FIX FR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18676,
+    "source": "X FR8 = FLOAT R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18676,
+    "source": "X FR9:8 = FLOAT R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18677,
+    "source": "X FR9:8 = EXTD R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18678,
+    "source": "X FR8 = SNGL R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18679,
+    "source": "X FR8 = CLIP R0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18680,
+    "source": "X FR9:8 = CLIP R1:0 BY R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18681,
+    "source": "X FR8 = R0 COPYSIGN R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18682,
+    "source": "X FR9:8 = R1:0 COPYSIGN R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18683,
+    "source": "X FR8 = SCALB FR0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18684,
+    "source": "X FR9:8 = SCALB FR1:0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18685,
+    "source": "X FR8 = PASS R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18686,
+    "source": "X FR9:8 = PASS R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18687,
+    "source": "X FR8 = RECIPS R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18688,
+    "source": "X FR9:8 = RECIPS R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18689,
+    "source": "X FR8 = RSQRTS R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18690,
+    "source": "X FR9:8 = RSQRTS R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18691,
+    "source": "X R8 = MANT FR0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18691,
+    "source": "X R8 = MANT FR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18692,
+    "source": "X R8 = LOGB FR0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18692,
+    "source": "X R8 = LOGB FR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18693,
+    "source": "X FR8 = R0 + R4, FR12 = R0 - R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-5",
+    "listing": 4,
+    "entry": 18694,
+    "source": "X FR9:8 = R1:0 + R5:4, FR13:12 = R1:0 - R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-6",
+    "listing": 5,
+    "entry": 18700,
+    "source": "X TR9:8 = TMAX(TR1:0 + R3:0_h, TR5:4 + R3:0_l)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-6",
+    "listing": 5,
+    "entry": 18701,
+    "source": "X TR9:8 = TMAX(TR1:0 - R3:0_h, TR5:4 - R3:0_l)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-6",
+    "listing": 5,
+    "entry": 18702,
+    "source": "X R8 = TMAX(TR0, TR4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-6",
+    "listing": 5,
+    "entry": 18703,
+    "source": "X TR9:8 = MAX(TR1:0 + R3:0_h, TR5:4 + R3:0_l)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-6",
+    "listing": 5,
+    "entry": 18704,
+    "source": "X TR9:8 = MAX(TR1:0 - R3:0_h, TR5:4 - R3:0_l)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-6",
+    "listing": 5,
+    "entry": 18707,
+    "source": "X R8 = TR0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-6",
+    "listing": 5,
+    "entry": 18708,
+    "source": "X R9:8 = TR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-6",
+    "listing": 5,
+    "entry": 18709,
+    "source": "X R11:8 = TR3:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-6",
+    "listing": 5,
+    "entry": 18710,
+    "source": "X R8 = THR0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-6",
+    "listing": 5,
+    "entry": 18711,
+    "source": "X R9:8 = THR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-6",
+    "listing": 5,
+    "entry": 18712,
+    "source": "X R11:8 = THR3:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-6",
+    "listing": 5,
+    "entry": 18713,
+    "source": "X R8 = CMCTL",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-6",
+    "listing": 5,
+    "entry": 18715,
+    "source": "X TR8 += DESPREAD (R3:0, THR1:0)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-6",
+    "listing": 5,
+    "entry": 18716,
+    "source": "X R8 = TR8, TR8 = DESPREAD (R3:0, THR1:0)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-6",
+    "listing": 5,
+    "entry": 18717,
+    "source": "X R9:8 = TR9:8, TR9:8 = DESPREAD (R3:0, THR1:0)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-6",
+    "listing": 5,
+    "entry": 18718,
+    "source": "X TR31:16 = XCORRS (R3:0, THR3:0) (CUT 0)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-6",
+    "listing": 5,
+    "entry": 18720,
+    "source": "X R11:8 = TR15:12, TR31:16 = XCORRS (R3:0,THR3:0) (CUT 0)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-7",
+    "listing": 5,
+    "entry": 18724,
+    "source": "X TR11:8 = ACS (TR1:0, TR5:4, R0)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-7",
+    "listing": 5,
+    "entry": 18725,
+    "source": "X R11:8 = TR15:12, TR11:8 = ACS (TR1:0, TR5:4, R0)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-7",
+    "listing": 6,
+    "entry": 18733,
+    "source": "X R8 = R0 * R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-7",
+    "listing": 6,
+    "entry": 18734,
+    "source": "X R9:8 = R0 * R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-7",
+    "listing": 6,
+    "entry": 18735,
+    "source": "X MR1:0 += R0 * R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-7",
+    "listing": 6,
+    "entry": 18736,
+    "source": "X MR1:0 -= R0 * R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-7",
+    "listing": 6,
+    "entry": 18737,
+    "source": "X R8 = MR1:0, MR1:0 += R0 * R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-7",
+    "listing": 6,
+    "entry": 18738,
+    "source": "X R9:8 = MR1:0, MR1:0 += R0 * R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-7",
+    "listing": 7,
+    "entry": 18741,
+    "source": "X R9:8 = R1:0 * R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-7",
+    "listing": 7,
+    "entry": 18742,
+    "source": "X R11:8 = R1:0 * R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-7",
+    "listing": 7,
+    "entry": 18743,
+    "source": "X MR3:0 += R1:0 * R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-8",
+    "listing": 7,
+    "entry": 18748,
+    "source": "X MR3:2 += R1:0 * R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-8",
+    "listing": 7,
+    "entry": 18749,
+    "source": "X R9:8 = MR3:2, MR3:0 += R1:0 * R5:4",
+    "expected_accept": false
+  },
+  {
+    "appendix_page": "A-8",
+    "listing": 7,
+    "entry": 18750,
+    "source": "X R9:8 = MR3:2, MR3:2 += R1:0 * R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-8",
+    "listing": 8,
+    "entry": 18753,
+    "source": "X MR1:0 += R0 ** R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-8",
+    "listing": 8,
+    "entry": 18754,
+    "source": "X MR1:0 -= R0 ** R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-8",
+    "listing": 8,
+    "entry": 18755,
+    "source": "X R8 = MR1:0, MR1:0 += R0 ** R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-8",
+    "listing": 8,
+    "entry": 18756,
+    "source": "X R9:8 = MR1:0, MR1:0 += R0 ** R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-8",
+    "listing": 9,
+    "entry": 18759,
+    "source": "X FR8 = R0 * R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-8",
+    "listing": 9,
+    "entry": 18760,
+    "source": "X FR9:8 = R1:0 * R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-8",
+    "listing": 10,
+    "entry": 18762,
+    "source": "X MR1:0 = R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-8",
+    "listing": 10,
+    "entry": 18763,
+    "source": "X MR4 = R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-8",
+    "listing": 10,
+    "entry": 18764,
+    "source": "X R9:8 = MR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-8",
+    "listing": 10,
+    "entry": 18765,
+    "source": "X R11:8 = MR3:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-8",
+    "listing": 10,
+    "entry": 18766,
+    "source": "X R8 = MR4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-8",
+    "listing": 10,
+    "entry": 18768,
+    "source": "X R9:8 = SMR0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-8",
+    "listing": 10,
+    "entry": 18769,
+    "source": "X LR9:8 = MR0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-8",
+    "listing": 10,
+    "entry": 18771,
+    "source": "X R11:8 = SMR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-8",
+    "listing": 10,
+    "entry": 18772,
+    "source": "X LR11:8 = MR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 10,
+    "entry": 18774,
+    "source": "X QR11:8 = LMR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 10,
+    "entry": 18777,
+    "source": "X R8 = COMPACT MR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 10,
+    "entry": 18778,
+    "source": "X SR9:8 = COMPACT MR3:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18784,
+    "source": "X R8 = LSHIFT R0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18784,
+    "source": "X R8 = LSHIFT R0 BY 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18784,
+    "source": "X R8 = ASHIFT R0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18784,
+    "source": "X R8 = ASHIFT R0 BY 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18785,
+    "source": "X R9:8 = LSHIFT R1:0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18785,
+    "source": "X R9:8 = LSHIFT R1:0 BY 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18785,
+    "source": "X R9:8 = ASHIFT R1:0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18785,
+    "source": "X R9:8 = ASHIFT R1:0 BY 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18786,
+    "source": "X R8 = ROT R0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18786,
+    "source": "X R8 = ROT R0 BY 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18787,
+    "source": "X R9:8 = ROT R1:0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18787,
+    "source": "X R9:8 = ROT R1:0 BY 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18788,
+    "source": "X R8 = FEXT R0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18788,
+    "source": "X R8 = FEXT R0 BY R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18789,
+    "source": "X LR9:8 = FEXT R1:0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18789,
+    "source": "X LR9:8 = FEXT R1:0 BY R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18790,
+    "source": "X R8 += FDEP R0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18790,
+    "source": "X R8 += FDEP R0 BY R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18791,
+    "source": "X LR9:8 += FDEP R1:0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18791,
+    "source": "X LR9:8 += FDEP R1:0 BY R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18792,
+    "source": "X R8 += MASK R0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-9",
+    "listing": 11,
+    "entry": 18793,
+    "source": "X LR9:8 += MASK R1:0 BY R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18801,
+    "source": "X R9:8 = GETBITS R3:0 BY R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18802,
+    "source": "X R9:8 += PUTBITS R1:0 BY R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18803,
+    "source": "X BITEST R0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18803,
+    "source": "X BITEST R0 BY 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18804,
+    "source": "X BITEST R1:0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18804,
+    "source": "X BITEST R1:0 BY 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18805,
+    "source": "X R8 = BCLR R0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18805,
+    "source": "X R8 = BCLR R0 BY 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18805,
+    "source": "X R8 = BSET R0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18805,
+    "source": "X R8 = BSET R0 BY 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18805,
+    "source": "X R8 = BTGL R0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18805,
+    "source": "X R8 = BTGL R0 BY 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18806,
+    "source": "X R9:8 = BCLR R1:0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18806,
+    "source": "X R9:8 = BCLR R1:0 BY 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18806,
+    "source": "X R9:8 = BSET R1:0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18806,
+    "source": "X R9:8 = BSET R1:0 BY 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18806,
+    "source": "X R9:8 = BTGL R1:0 BY R4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18806,
+    "source": "X R9:8 = BTGL R1:0 BY 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18807,
+    "source": "X R8 = LD0 R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18807,
+    "source": "X R8 = LD0 R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18807,
+    "source": "X R8 = LD1 R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18807,
+    "source": "X R8 = LD1 R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18808,
+    "source": "X R8 = EXP R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18808,
+    "source": "X R8 = EXP R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18809,
+    "source": "X STAT = R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18810,
+    "source": "X STATL = R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18811,
+    "source": "X R8 = STAT",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18812,
+    "source": "X BKFPT R1:0, R5:4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18813,
+    "source": "X R9:8 = BFOTMP",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18814,
+    "source": "X BFOTMP = R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18815,
+    "source": "X TR8 = R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18816,
+    "source": "X TR9:8 = R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18817,
+    "source": "X TR11:8 = R3:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18818,
+    "source": "X THR8 = R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18819,
+    "source": "X THR9:8 = R1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18820,
+    "source": "X THR11:8 = R3:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-10",
+    "listing": 11,
+    "entry": 18821,
+    "source": "X CMCTL = R0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18828,
+    "source": "J8 = J0 + J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18828,
+    "source": "J8 = J0 + 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18828,
+    "source": "J8 = J0 + 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18828,
+    "source": "J8 = J0 - J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18828,
+    "source": "J8 = J0 - 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18828,
+    "source": "J8 = J0 - 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB0 = J0 +J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB0 = J0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB0 = J0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB0 = J0 -J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB0 = J0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB0 = J0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB1 = J0 +J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB1 = J0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB1 = J0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB1 = J0 -J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB1 = J0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB1 = J0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB2 = J0 +J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB2 = J0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB2 = J0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB2 = J0 -J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB2 = J0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB2 = J0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB3 = J0 +J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB3 = J0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB3 = J0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB3 = J0 -J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB3 = J0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JB3 = J0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL0 = J0 +J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL0 = J0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL0 = J0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL0 = J0 -J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL0 = J0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL0 = J0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL1 = J0 +J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL1 = J0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL1 = J0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL1 = J0 -J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL1 = J0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL1 = J0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL2 = J0 +J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL2 = J0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL2 = J0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL2 = J0 -J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL2 = J0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL2 = J0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL3 = J0 +J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL3 = J0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL3 = J0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL3 = J0 -J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL3 = J0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18829,
+    "source": "JL3 = J0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18830,
+    "source": "J8 = J0 + J4 + JC",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18830,
+    "source": "J8 = J0 + 3 + JC",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18830,
+    "source": "J8 = J0 + 3 + JC",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18831,
+    "source": "J8 = J0 - J4 + JC - 1",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18831,
+    "source": "J8 = J0 - 3 + JC - 1",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18831,
+    "source": "J8 = J0 - 3 + JC - 1",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18832,
+    "source": "J8 = (J0 + J4)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18832,
+    "source": "J8 = (J0 + 3)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18832,
+    "source": "J8 = (J0 + 3)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18832,
+    "source": "J8 = (J0 - J4)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18832,
+    "source": "J8 = (J0 - 3)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18832,
+    "source": "J8 = (J0 - 3)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18833,
+    "source": "COMP(J0, J4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18833,
+    "source": "COMP(J0, 3)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18833,
+    "source": "COMP(J0, 3)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18834,
+    "source": "J8 = MAX (J0, J4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18834,
+    "source": "J8 = MAX (J0, 3)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18834,
+    "source": "J8 = MAX (J0, 3)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18834,
+    "source": "J8 = MIN (J0, J4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18834,
+    "source": "J8 = MIN (J0, 3)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18834,
+    "source": "J8 = MIN (J0, 3)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18835,
+    "source": "J8 = ABS J0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18836,
+    "source": "J8 = J0 OR J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18836,
+    "source": "J8 = J0 OR 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18836,
+    "source": "J8 = J0 OR 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18836,
+    "source": "J8 = J0 AND J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18836,
+    "source": "J8 = J0 AND 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18836,
+    "source": "J8 = J0 AND 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18836,
+    "source": "J8 = J0 XOR J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18836,
+    "source": "J8 = J0 XOR 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18836,
+    "source": "J8 = J0 XOR 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18836,
+    "source": "J8 = J0 AND NOT J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18836,
+    "source": "J8 = J0 AND NOT 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18836,
+    "source": "J8 = J0 AND NOT 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18837,
+    "source": "J8 = NOT J0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18838,
+    "source": "J8 = ASHIFTR J0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18838,
+    "source": "J8 = LSHIFTR J0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18839,
+    "source": "J8 = ROTR J0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18839,
+    "source": "J8 = ROTL J0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18840,
+    "source": "K8 = K0 + K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18840,
+    "source": "K8 = K0 + 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18840,
+    "source": "K8 = K0 + 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18840,
+    "source": "K8 = K0 - K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18840,
+    "source": "K8 = K0 - 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18840,
+    "source": "K8 = K0 - 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB0 = K0 +K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB0 = K0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB0 = K0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB0 = K0 -K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB0 = K0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB0 = K0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB1 = K0 +K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB1 = K0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB1 = K0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB1 = K0 -K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB1 = K0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB1 = K0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB2 = K0 +K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB2 = K0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB2 = K0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB2 = K0 -K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB2 = K0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB2 = K0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB3 = K0 +K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB3 = K0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB3 = K0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB3 = K0 -K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB3 = K0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KB3 = K0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL0 = K0 +K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL0 = K0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL0 = K0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL0 = K0 -K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL0 = K0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL0 = K0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL1 = K0 +K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL1 = K0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL1 = K0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL1 = K0 -K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL1 = K0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL1 = K0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL2 = K0 +K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL2 = K0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL2 = K0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL2 = K0 -K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL2 = K0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL2 = K0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL3 = K0 +K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL3 = K0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL3 = K0 +3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL3 = K0 -K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL3 = K0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18841,
+    "source": "KL3 = K0 -3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18842,
+    "source": "K8 = K0 + K4 + KC",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18842,
+    "source": "K8 = K0 + 3 + KC",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18842,
+    "source": "K8 = K0 + 3 + KC",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18843,
+    "source": "K8 = K0 - K4 + KC - 1",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18843,
+    "source": "K8 = K0 - 3 + KC - 1",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18843,
+    "source": "K8 = K0 - 3 + KC - 1",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18844,
+    "source": "K8 = (K0 + K4)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18844,
+    "source": "K8 = (K0 + 3)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18844,
+    "source": "K8 = (K0 + 3)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18844,
+    "source": "K8 = (K0 - K4)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18844,
+    "source": "K8 = (K0 - 3)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18844,
+    "source": "K8 = (K0 - 3)/2",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18845,
+    "source": "COMP(J0, J4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18845,
+    "source": "COMP(J0, 3)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18845,
+    "source": "COMP(J0, 3)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18846,
+    "source": "K8 = MAX (K0, K4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18846,
+    "source": "K8 = MAX (K0, 3)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18846,
+    "source": "K8 = MAX (K0, 3)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18846,
+    "source": "K8 = MIN (K0, K4)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18846,
+    "source": "K8 = MIN (K0, 3)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18846,
+    "source": "K8 = MIN (K0, 3)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18847,
+    "source": "K8 = ABS K0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18848,
+    "source": "K8 = K0 OR K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18848,
+    "source": "K8 = K0 OR 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18848,
+    "source": "K8 = K0 OR 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18848,
+    "source": "K8 = K0 AND K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18848,
+    "source": "K8 = K0 AND 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18848,
+    "source": "K8 = K0 AND 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18848,
+    "source": "K8 = K0 XOR K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18848,
+    "source": "K8 = K0 XOR 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18848,
+    "source": "K8 = K0 XOR 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18848,
+    "source": "K8 = K0 AND NOT K4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18848,
+    "source": "K8 = K0 AND NOT 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18848,
+    "source": "K8 = K0 AND NOT 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18849,
+    "source": "K8 = NOT K0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18850,
+    "source": "K8 = ASHIFTR K0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18850,
+    "source": "K8 = LSHIFTR K0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18851,
+    "source": "K8 = ROTR K0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-11",
+    "listing": 12,
+    "entry": 18851,
+    "source": "K8 = ROTL K0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18854,
+    "source": "XR8 = [J0 + J4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18854,
+    "source": "XR8 = [J0 + 3]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18854,
+    "source": "XR8 = [J0 + 3]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18854,
+    "source": "XR8 = [J0 += J4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18854,
+    "source": "XR8 = [J0 += 3]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18854,
+    "source": "XR8 = [J0 += 3]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18855,
+    "source": "XR9:8 = L [J0 + J4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18855,
+    "source": "XR9:8 = L [J0 + 2]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18855,
+    "source": "XR9:8 = L [J0 + 2]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18855,
+    "source": "XR9:8 = L [J0 += J4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18855,
+    "source": "XR9:8 = L [J0 += 2]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18855,
+    "source": "XR9:8 = L [J0 += 2]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18856,
+    "source": "XR11:8 = Q [J0 + J4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18856,
+    "source": "XR11:8 = Q [J0 + 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18856,
+    "source": "XR11:8 = Q [J0 + 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18856,
+    "source": "XR11:8 = Q [J0 += J4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18856,
+    "source": "XR11:8 = Q [J0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18856,
+    "source": "XR11:8 = Q [J0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18857,
+    "source": "XR8 = [K0 + K4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18857,
+    "source": "XR8 = [K0 + 3]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18857,
+    "source": "XR8 = [K0 + 3]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18857,
+    "source": "XR8 = [K0 += K4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18857,
+    "source": "XR8 = [K0 += 3]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18857,
+    "source": "XR8 = [K0 += 3]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18858,
+    "source": "XR9:8 = L [K0 + K4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18858,
+    "source": "XR9:8 = L [K0 + 2]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18858,
+    "source": "XR9:8 = L [K0 + 2]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18858,
+    "source": "XR9:8 = L [K0 += K4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18858,
+    "source": "XR9:8 = L [K0 += 2]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18858,
+    "source": "XR9:8 = L [K0 += 2]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18859,
+    "source": "XR11:8 = Q [K0 + K4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18859,
+    "source": "XR11:8 = Q [K0 + 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18859,
+    "source": "XR11:8 = Q [K0 + 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18859,
+    "source": "XR11:8 = Q [K0 += K4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18859,
+    "source": "XR11:8 = Q [K0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 13,
+    "entry": 18859,
+    "source": "XR11:8 = Q [K0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18863,
+    "source": "XR8 = [J0 += J4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18863,
+    "source": "XR8 = [J0 += 3]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18863,
+    "source": "XR8 = [J0 += 3]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18864,
+    "source": "XR9:8 = L [J0 += J4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18864,
+    "source": "XR9:8 = L [J0 += 2]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18864,
+    "source": "XR9:8 = L [J0 += 2]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18865,
+    "source": "XYR8 = L [J0 += J4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18865,
+    "source": "XYR8 = L [J0 += 2]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18865,
+    "source": "XYR8 = L [J0 += 2]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18866,
+    "source": "XR11:8 = Q [J0 += J4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18866,
+    "source": "XR11:8 = Q [J0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18866,
+    "source": "XR11:8 = Q [J0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18867,
+    "source": "XYR9:8 = Q [J0 += J4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18867,
+    "source": "XYR9:8 = Q [J0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18867,
+    "source": "XYR9:8 = Q [J0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18868,
+    "source": "XR8 = [K0 += K4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18868,
+    "source": "XR8 = [K0 += 3]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18868,
+    "source": "XR8 = [K0 += 3]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18869,
+    "source": "XR9:8 = L [K0 += K4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18869,
+    "source": "XR9:8 = L [K0 += 2]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18869,
+    "source": "XR9:8 = L [K0 += 2]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18870,
+    "source": "XYR8 = L [K0 += K4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18870,
+    "source": "XYR8 = L [K0 += 2]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18870,
+    "source": "XYR8 = L [K0 += 2]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18871,
+    "source": "XR11:8 = Q [K0 += K4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18871,
+    "source": "XR11:8 = Q [K0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18871,
+    "source": "XR11:8 = Q [K0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18872,
+    "source": "XYR9:8 = Q [K0 += K4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18872,
+    "source": "XYR9:8 = Q [K0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18872,
+    "source": "XYR9:8 = Q [K0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18875,
+    "source": "XYR11:8 = XDAB Q [J0 += J4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18875,
+    "source": "XYR11:8 = XDAB Q [J0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18875,
+    "source": "XYR11:8 = XDAB Q [J0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18876,
+    "source": "XYR11:8 = XSDAB Q [J0 += J4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18876,
+    "source": "XYR11:8 = XSDAB Q [J0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-12",
+    "listing": 14,
+    "entry": 18876,
+    "source": "XYR11:8 = XSDAB Q [J0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 14,
+    "entry": 18878,
+    "source": "XYR11:8 = YDAB Q [J0 += J4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 14,
+    "entry": 18878,
+    "source": "XYR11:8 = YDAB Q [J0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 14,
+    "entry": 18878,
+    "source": "XYR11:8 = YDAB Q [J0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 14,
+    "entry": 18879,
+    "source": "XYR11:8 = YSDAB Q [J0 += J4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 14,
+    "entry": 18879,
+    "source": "XYR11:8 = YSDAB Q [J0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 14,
+    "entry": 18879,
+    "source": "XYR11:8 = YSDAB Q [J0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 14,
+    "entry": 18880,
+    "source": "XYR11:8 = XDAB Q [K0 += K4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 14,
+    "entry": 18880,
+    "source": "XYR11:8 = XDAB Q [K0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 14,
+    "entry": 18880,
+    "source": "XYR11:8 = XDAB Q [K0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 14,
+    "entry": 18881,
+    "source": "XYR11:8 = XSDAB Q [K0 += K4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 14,
+    "entry": 18881,
+    "source": "XYR11:8 = XSDAB Q [K0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 14,
+    "entry": 18881,
+    "source": "XYR11:8 = XSDAB Q [K0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 14,
+    "entry": 18882,
+    "source": "XYR11:8 = YDAB Q [K0 += K4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 14,
+    "entry": 18882,
+    "source": "XYR11:8 = YDAB Q [K0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 14,
+    "entry": 18882,
+    "source": "XYR11:8 = YDAB Q [K0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 14,
+    "entry": 18883,
+    "source": "XYR11:8 = YSDAB Q [K0 += K4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 14,
+    "entry": 18883,
+    "source": "XYR11:8 = YSDAB Q [K0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 14,
+    "entry": 18883,
+    "source": "XYR11:8 = YSDAB Q [K0 += 4]",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18885,
+    "source": "[J0 + J4] = XR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18885,
+    "source": "[J0 + 3] = XR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18885,
+    "source": "[J0 + 3] = XR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18885,
+    "source": "[J0 += J4] = XR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18885,
+    "source": "[J0 += 3] = XR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18885,
+    "source": "[J0 += 3] = XR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18886,
+    "source": "L [J0 + J4] = XR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18886,
+    "source": "L [J0 + 2] = XR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18886,
+    "source": "L [J0 + 2] = XR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18886,
+    "source": "L [J0 += J4] = XR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18886,
+    "source": "L [J0 += 2] = XR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18886,
+    "source": "L [J0 += 2] = XR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18887,
+    "source": "Q [J0 + J4] = XR11:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18887,
+    "source": "Q [J0 + 4] = XR11:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18887,
+    "source": "Q [J0 + 4] = XR11:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18887,
+    "source": "Q [J0 += J4] = XR11:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18887,
+    "source": "Q [J0 += 4] = XR11:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18887,
+    "source": "Q [J0 += 4] = XR11:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18888,
+    "source": "[K0 + K4] = XR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18888,
+    "source": "[K0 + 3] = XR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18888,
+    "source": "[K0 + 3] = XR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18888,
+    "source": "[K0 += K4] = XR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18888,
+    "source": "[K0 += 3] = XR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18888,
+    "source": "[K0 += 3] = XR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18889,
+    "source": "L [K0 + K4] = XR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18889,
+    "source": "L [K0 + 2] = XR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18889,
+    "source": "L [K0 + 2] = XR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18889,
+    "source": "L [K0 += K4] = XR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18889,
+    "source": "L [K0 += 2] = XR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18889,
+    "source": "L [K0 += 2] = XR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18890,
+    "source": "Q [K0 + K4] = XR11:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18890,
+    "source": "Q [K0 + 4] = XR11:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18890,
+    "source": "Q [K0 + 4] = XR11:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18890,
+    "source": "Q [K0 += K4] = XR11:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18890,
+    "source": "Q [K0 += 4] = XR11:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 15,
+    "entry": 18890,
+    "source": "Q [K0 += 4] = XR11:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18892,
+    "source": "[J0 += J4] = XR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18892,
+    "source": "[J0 += 3] = XR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18892,
+    "source": "[J0 += 3] = XR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18893,
+    "source": "L [J0 += J4] = XR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18893,
+    "source": "L [J0 += 2] = XR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18893,
+    "source": "L [J0 += 2] = XR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18894,
+    "source": "L [J0 += J4] = XYR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18894,
+    "source": "L [J0 += 2] = XYR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18894,
+    "source": "L [J0 += 2] = XYR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18895,
+    "source": "Q [J0 += J4] = XR11:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18895,
+    "source": "Q [J0 += 4] = XR11:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18895,
+    "source": "Q [J0 += 4] = XR11:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18896,
+    "source": "Q [J0 += J4] = XYR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18896,
+    "source": "Q [J0 += 4] = XYR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18896,
+    "source": "Q [J0 += 4] = XYR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18897,
+    "source": "[K0 += K4] = XR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18897,
+    "source": "[K0 += 3] = XR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18897,
+    "source": "[K0 += 3] = XR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18898,
+    "source": "L [K0 += K4] = XR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18898,
+    "source": "L [K0 += 2] = XR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18898,
+    "source": "L [K0 += 2] = XR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18899,
+    "source": "L [K0 += K4] = XYR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18899,
+    "source": "L [K0 += 2] = XYR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18899,
+    "source": "L [K0 += 2] = XYR8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18900,
+    "source": "Q [K0 += K4] = XR11:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18900,
+    "source": "Q [K0 += 4] = XR11:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18900,
+    "source": "Q [K0 += 4] = XR11:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18901,
+    "source": "Q [K0 += K4] = XYR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18901,
+    "source": "Q [K0 += 4] = XYR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-13",
+    "listing": 16,
+    "entry": 18901,
+    "source": "Q [K0 += 4] = XYR9:8",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-14",
+    "listing": 17,
+    "entry": 18906,
+    "source": "XR8 = 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-14",
+    "listing": 17,
+    "entry": 18906,
+    "source": "XR8 = 3",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-14",
+    "listing": 17,
+    "entry": 18907,
+    "source": "XR8 = YR0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-14",
+    "listing": 17,
+    "entry": 18908,
+    "source": "XR9:8 = YR1:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-14",
+    "listing": 17,
+    "entry": 18909,
+    "source": "XR11:8 = YR3:0",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-14",
+    "listing": 18,
+    "entry": 18914,
+    "source": "JUMP start (NP)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-14",
+    "listing": 18,
+    "entry": 18914,
+    "source": "CALL start (NP)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-14",
+    "listing": 18,
+    "entry": 18915,
+    "source": "CJMP (NP)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-14",
+    "listing": 18,
+    "entry": 18915,
+    "source": "CJMP_CALL (NP)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-14",
+    "listing": 18,
+    "entry": 18916,
+    "source": "RETI (NP)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-14",
+    "listing": 18,
+    "entry": 18916,
+    "source": "RTI (NP)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-14",
+    "listing": 18,
+    "entry": 18917,
+    "source": "RDS",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18932,
+    "source": "XSF1 = XAEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18932,
+    "source": "XSF0 = XAEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18933,
+    "source": "XSF1 += AND XAEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18933,
+    "source": "XSF1 += OR XAEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18933,
+    "source": "XSF1 += XOR XAEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18933,
+    "source": "XSF0 += AND XAEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18933,
+    "source": "XSF0 += OR XAEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18933,
+    "source": "XSF0 += XOR XAEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18934,
+    "source": "ISF1 = JEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18934,
+    "source": "ISF1 = XAEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18934,
+    "source": "ISF1 = TRUE",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18934,
+    "source": "ISF0 = JEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18934,
+    "source": "ISF0 = XAEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18934,
+    "source": "ISF0 = TRUE",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18935,
+    "source": "ISF1 += AND JEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18935,
+    "source": "ISF1 += AND XAEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18935,
+    "source": "ISF1 += AND TRUE",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18935,
+    "source": "ISF1 += OR JEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18935,
+    "source": "ISF1 += OR XAEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18935,
+    "source": "ISF1 += OR TRUE",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18935,
+    "source": "ISF1 += XOR JEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18935,
+    "source": "ISF1 += XOR XAEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18935,
+    "source": "ISF1 += XOR TRUE",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18935,
+    "source": "ISF0 += AND JEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18935,
+    "source": "ISF0 += AND XAEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18935,
+    "source": "ISF0 += AND TRUE",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18935,
+    "source": "ISF0 += OR JEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18935,
+    "source": "ISF0 += OR XAEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18935,
+    "source": "ISF0 += OR TRUE",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18935,
+    "source": "ISF0 += XOR JEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18935,
+    "source": "ISF0 += XOR XAEQ",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18935,
+    "source": "ISF0 += XOR TRUE",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18936,
+    "source": "IDLE",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18937,
+    "source": "BTBEN",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18938,
+    "source": "BTBDIS",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18939,
+    "source": "BTBLOCK",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18940,
+    "source": "BTBELOCK",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18941,
+    "source": "BTBINV",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18942,
+    "source": "TRAP (3)",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18943,
+    "source": "EMUTRAP",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-15",
+    "listing": 18,
+    "entry": 18944,
+    "source": "NOP",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-14",
+    "listing": 18,
+    "entry": 18918,
+    "source": "IF JEQ; DO J8 = J0 + J4",
+    "expected_accept": true
+  },
+  {
+    "appendix_page": "A-14",
+    "listing": 18,
+    "entry": 18923,
+    "source": "IF JEQ, JUMP start (NP); ELSE J8 = J0 + J4",
+    "expected_accept": true
+  }
+]

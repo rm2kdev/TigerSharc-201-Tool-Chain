@@ -1,0 +1,6 @@
+{
+  "max_packets": 80,
+  "registers": {"J9": 42, "K2": 42, "K3": 42, "K10": 1048576},
+  "memory": {"result": [42]},
+  "idle_symbol": "done"
+}

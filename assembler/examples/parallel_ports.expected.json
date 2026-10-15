@@ -1,0 +1,7 @@
+{
+  "max_packets": 40,
+  "idle_symbol": "done",
+  "registers": {"XR0":13,"XR3":42,"YR0":4294967295,"YR3":42,
+    "XR4":101,"YR4":202,"XR5":101,"YR5":303,"XR8":13,"J1":12,"K1":23},
+  "memory": {"input":[101,202,42,0],"output":[42,0]}
+}

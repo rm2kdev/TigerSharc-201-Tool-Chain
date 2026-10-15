@@ -1,0 +1,16 @@
+# Store text as LF and check it out as LF in every worktree, whatever the
+# machine's core.autocrlf says. This stops agents' editors from producing
+# whole-file line-ending churn in diffs. (Pre-git files were mixed CRLF/LF;
+# Python and the assembler read both identically.)
+* text=auto eol=lf
+
+# cmd.exe mis-parses labels/goto in LF batch files.
+*.cmd   text eol=crlf
+*.bat   text eol=crlf
+
+*.bin   binary
+*.png   binary
+*.gif   binary
+*.pbm   binary
+*.gz    binary
+*.pdf   binary

@@ -1,0 +1,11 @@
+{
+  "max_packets": 10,
+  "registers": {
+    "J0": 1
+  },
+  "memory": {},
+  "idle_symbol": "done",
+  "compare_flags_reference": {
+    "manual_jstat_low4": 0
+  }
+}
